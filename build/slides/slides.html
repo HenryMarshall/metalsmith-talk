@@ -20,7 +20,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="/css/reveal.css">
-		<link rel="stylesheet" href="/css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="/css/theme/solarized.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="/lib/css/zenburn.css">
@@ -117,7 +117,7 @@ Penguicon 2018
 <section><p><a href="https://docs.travis-ci.com/api/?ruby"><img src="images/documentation.png" alt="travis CI"></a></p>
 <aside class='notes'><p>Documentation: User can choose language</p>
 </aside></section>
-<section><p><a href="https://github.com/henrymarshall/metalsmith-talk"><img src="images/slides.png" alt="these
+<section><p><a href="https://github.com/henrymarshall/metalsmith-talk"><img src="images/these_slides.png" alt="these
 slides">]</a></p>
 </section></section>
 <section><section><h2 id="static-site-generators">Static Site Generators</h2>
@@ -175,15 +175,18 @@ slides">]</a></p>
 <li>Hover - concierge service</li>
 </ul>
 </aside></section></section>
-<section><section><h2 id="accepting-donations-with-stripe">Accepting Donations with Stripe</h2>
+<section><section><h2 id="accepting-donations">Accepting Donations</h2>
+<p><img src="images/stripe.png" alt="stripe logo"></p>
 <aside class='notes'><ul>
 <li>I work for Stripe.</li>
 <li>We&#39;re hiring!</li>
 </ul>
 </aside></section>
 <section><h2 id="add-stripe-checkout-to-your-site">Add <a href="https://stripe.com/docs/quickstart">Stripe Checkout</a> to <a href="https://github.com/HenryMarshall/metalsmith-talk-demo/blob/master/src/layouts/partials/footer.hbs#L10">your Site</a></h2>
+<p><img src="images/checkout.png" alt="checkout"></p>
 </section>
 <section><h2 id="serverless"><a href="https://runkit.com/henrymarshall/metalsmith-talk-stripe-charge">Serverless</a></h2>
+<p><img src="images/runkit.png" alt="runkit"></p>
 <aside class='notes'><ul>
 <li>Runkit (owned by Stripe)</li>
 <li>AWS Lambda</li>
@@ -195,7 +198,7 @@ slides">]</a></p>
 </section></section>
 <section><h2 id="json-api">JSON API</h2>
 </section>
-<section><h2 id="comments-with-disqus"><a href="https://github.com/HenryMarshall/metalsmith-talk-demo/blob/master/src/layouts/blog-post.hbs#L25">Comments with Disqus</a></h2>
+<section><p><a href="https://github.com/HenryMarshall/metalsmith-talk-demo/blob/master/src/layouts/blog-post.hbs#L25"><img src="images/disqus.png" alt="disqus"></a></p>
 </section>
 <section><h2 id="questions">Questions</h2>
 </section>
@@ -228,6 +231,13 @@ slides">]</a></p>
 					{ src: '/plugin/notes/notes.js', async: true }
 				]
 			});
+
+      Reveal.configure({
+        keyboard: {
+          40: 'next',
+          38: 'prev',
+        }
+      })
 
 		</script>
 	</body>

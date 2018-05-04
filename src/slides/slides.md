@@ -108,7 +108,7 @@ Note: Documentation: User can choose language
 ----
 
 [![these
-slides](images/slides.png)]](https://github.com/henrymarshall/metalsmith-talk)
+slides](images/these_slides.png)]](https://github.com/henrymarshall/metalsmith-talk)
 
 ====
 
@@ -175,7 +175,9 @@ Note:
 
 ====
 
-## Accepting Donations with Stripe
+## Accepting Donations
+
+![stripe logo](images/stripe.png)
 
 Note:
 - I work for Stripe.
@@ -185,9 +187,13 @@ Note:
 
 ## Add [Stripe Checkout](https://stripe.com/docs/quickstart) to [your Site](https://github.com/HenryMarshall/metalsmith-talk-demo/blob/master/src/layouts/partials/footer.hbs#L10)
 
+![checkout](images/checkout.png)
+
 ----
 
 ## [Serverless](https://runkit.com/henrymarshall/metalsmith-talk-stripe-charge)
+
+![runkit](images/runkit.png)
 
 Note:
 - Runkit (owned by Stripe)
@@ -206,7 +212,7 @@ Note:
 
 ====
 
-## [Comments with Disqus](https://github.com/HenryMarshall/metalsmith-talk-demo/blob/master/src/layouts/blog-post.hbs#L25)
+[![disqus](images/disqus.png)](https://github.com/HenryMarshall/metalsmith-talk-demo/blob/master/src/layouts/blog-post.hbs#L25)
 
 ====
 
